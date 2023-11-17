@@ -1,0 +1,13 @@
+body {
+  background: rgb(214, 214, 247);
+  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.weather-app {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 30px;
+}
