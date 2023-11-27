@@ -83,6 +83,7 @@ main {
   justify-content: space-around;
   font-size: 16px;
   opacity: 0.6;
+  margin-bottom: 30px;
 }
 .weather-forecast-temperatures {
   display: flex;
@@ -101,8 +102,10 @@ main {
   margin-bottom: 10px;
 }
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  width: 80px;
 }
 
 footer {
