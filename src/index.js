@@ -49,7 +49,7 @@ function searchCity(city) {
 
 function displayLocation(position) {
   let longitude = position.coords.longitude;
-  let latitude = position.coordss.latitude;
+  let latitude = position.coords.latitude;
   let apiKey = "eb214ccaa33987f7248o49846e082tab";
   let apiUrl = `https://api.shecodes.io/weather/v1/forecast?lat=${latitude}&lon=${longitude}&key=${apiKey}&units=metric`;
 
